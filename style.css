@@ -183,7 +183,7 @@ text-align: center;}
 3 - PAGE TITLE 
 =================================================*/
 
-.page_title {font-size:75px; text-align: center; text-transform: uppercase; letter-spacing: -3px; margin-bottom:28px; }
+.page_title {font-size:75px; text-align: center; text-transform: uppercase; letter-spacing: -3px; margin-bottom:28px; line-height: 75px;}
 .page_title.small {font-size:50px; text-align: left; text-transform: uppercase; letter-spacing: -3px; margin-bottom:28px; }
 .page_subtitle {color:#b2b2b2; text-transform: uppercase;text-align: center; margin:15px 0px;}
 .page_line {width:80px; height:4px; background-color:#b7b7b7; margin:0 auto;}
@@ -1532,6 +1532,58 @@ width: 130px;height: 130px; position: relative;margin: 0 auto;}
 
 
 
+/* QUERIES FOR IPAD */
+
+@media only screen  and (max-width: 959px) {
+
+
+/* ABOUT US*/
+/*.over_container {padding: 20px;}
+.over_container h1 {font-size: 24px;margin: 20px 0px;}
+.over_about p {font-size: 16px;}*/
+
+
+/*.video_caption {top:100px;}
+.responsive_nav {display: block;}
+.menu_trigger {display: block;}
+.main_nav {display: none;}
+#logo {width: 54px;}
+.welcome_msg {font-size: 50px;}
+.welcome {padding: 60px 0px;}
+.welcome_text {margin-top: 22px; font-size:17px;}
+.portfolio_item {width: 33%;}
+#tweet_feed {min-height:50px;}
+h1,h2,h3,h4,h5,h6 {line-height: 25px;}
+*/
+
+/*.fullwidthbanner-container.home {margin-top: 40px;}*/
+
+
+/* REVOLUTION CAPTIONS STYLE 4 */
+/*.style4.cap_1 {bottom: 180px; left:20px;}
+.style4.cap_2 {bottom: 130px;left:20px;}
+.small_black.cap_3 {bottom: 60px;left:20px;}
+.style4.cap_4 {bottom: 180px; left:20px;}
+.style4.cap_5 {bottom: 130px;left:20px;}
+.small_black.cap_6 {bottom: 60px;left:20px;}
+.style4.cap_7 {bottom: 180px; left:20px;}
+.style4.cap_8 {bottom: 130px;left:20px;}
+.small_black.cap_9 {bottom: 60px;left:20px;}*/
+
+/*TEAM */
+.team_img_container {height: 180px; width: 167px;}
+.team_description {width: 167px;}
+.span3 {width: 167px;}
+
+
+}
+
+
+
+
+
+
+
 
 
 /* -- Custom -- */
@@ -1545,9 +1597,10 @@ width: 130px;height: 130px; position: relative;margin: 0 auto;}
 .ssImage-3 {background: url("./images/slideImages/slideImage3.jpg") 25% 50% no-repeat;}
 #header, #home {
 	max-width: 1440px !important;
-	min-width: 600px !important;
+	min-width: 800px !important;
 	margin: 0 auto;
 }
 html {
 	background: #cccccc;
+	min-width: 800px !important;
 }
