@@ -47,7 +47,7 @@ Available skins colors: orange.css blue.css red.css green.css yellow.css gray.cs
 
 body {
 	font-family: 'Open Sans', Helvetica, Arial, "Lucida Grande", sans-serif; 
-   	font-size:14px;
+   	
    	color: #818894;
    	line-height: 25px;
 }
@@ -203,7 +203,6 @@ z-index: 100;
 
 .responsive_nav {
 margin-top: -1px;
-background-image: url(images/geometry.png);
 }
 
 .menu_trigger {
@@ -1801,5 +1800,5 @@ h1,h2,h3,h4,h5,h6 {line-height: 25px;}
 	margin: 0 auto;
 }
 html {
-	background-image: url('./images/binding_light.png');
+	background: #cccccc;
 }
