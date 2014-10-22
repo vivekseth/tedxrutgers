@@ -145,6 +145,12 @@
 			var $parent = $link.parent();
 			var newLoc = '#' + self.getHash($link);
 			
+			if (e.currentTarget.className.match("no-scroll-nav-button")) {
+				return;
+			}
+
+			console.log(e);
+
 			if(!$parent.hasClass(self.config.currentClass)) {
 				//Start callback
 				if(self.config.begin) {
