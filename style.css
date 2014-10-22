@@ -1607,3 +1607,8 @@ html {
 p a {
 	color: #bbb;
 }
+.big-body-text {
+	margin-left: 10px; 
+	font-size:20px; 
+	line-height: 35px;
+}
