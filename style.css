@@ -1596,7 +1596,7 @@ h1,h2,h3,h4,h5,h6 {line-height: 25px;}
 .ssImage-2 {background: url("./images/slideImages/slideImage2.jpg") 50% 0% no-repeat;}
 .ssImage-3 {background: url("./images/slideImages/slideImage3.jpg") 25% 50% no-repeat;}
 #header, #home {
-	max-width: 1440px !important;
+	/*max-width: 1440px !important;      commenting this out makes the page full width. */
 	min-width: 800px !important;
 	margin: 0 auto;
 }
