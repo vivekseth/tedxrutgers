@@ -1641,3 +1641,7 @@ p.slide-detail-text a {
 p.slide-detail-text a:hover {
 	color:#ff4040;
 }
+a {
+	xtext-decoration: underline;
+	border-bottom: 1px solid #888;
+}
