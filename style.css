@@ -105,7 +105,7 @@ blockquote p {
 .right {float: right;}
 .left {float: left;}
 
-.section{padding:115px 0px;padding-bottom: 0px;background-color: #FFFFFF;}
+.section{padding:95px 0px;padding-bottom: 0px;background-color: #FFFFFF;}
 .section.gray{background-color: #f6f6f6;}
 .hidden {display: none;}
 .uppercase {text-transform: uppercase;}
@@ -1642,6 +1642,41 @@ p.slide-detail-text a:hover {
 	color:#ff4040;
 }
 a {
-	xtext-decoration: underline;
+	text-decoration: underline;
 	border-bottom: 1px solid #888;
 }
+
+/* 
+====================================================
+Custom Code
+==================================================== 
+*/
+
+#date_info{
+	background-color: #D1D1D1;
+	height: 110px;
+	padding-top: 90px;
+	padding-bottom: 35px;
+}
+
+#date_info .row{
+	text-align: center;
+}
+
+#date_info .row h1{
+	font-weight: 900;
+	color: rgba(255, 43, 6, 0.81);
+}
+
+#date_info .row h2{
+	line-height: 15px;
+}
+
+#our_team{
+	padding-top: 25px;
+}
+
+
+#speakers .container .row{
+	text-align: center;
+} 
