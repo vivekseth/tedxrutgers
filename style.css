@@ -1651,6 +1651,10 @@ Custom Code
 ==================================================== 
 */
 
+.text-center{
+	text-align: center;
+}
+
 #date_info{
 	background-color: #D1D1D1;
 	height: 110px;
