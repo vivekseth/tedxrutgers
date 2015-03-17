@@ -1708,3 +1708,29 @@ Custom Code
 	top:1px;
 	color:white;
 }
+
+.largeContainer{
+	margin-right: auto;
+  	margin-left: auto;
+  	width: 80%;
+}
+
+.largeContainer .span6{
+	width: 46% !important;
+	margin: 2%;
+}
+
+.thinHead{
+	margin: 1px;
+	line-height: 24px;
+}
+
+h3.thinHead{
+	margin-bottom: 12px;
+	color: rgb(161, 161, 161);
+}
+
+.midSize{
+	padding-left: 20%;
+	padding-right: 20%;
+}
