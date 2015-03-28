@@ -1657,7 +1657,7 @@ Custom Code
 
 #date_info{
 	background-color: #D1D1D1;
-	height: 110px;
+	height: 190px;
 	padding-top: 90px;
 	padding-bottom: 35px;
 }
@@ -1733,4 +1733,9 @@ h3.thinHead{
 .midSize{
 	padding-left: 20%;
 	padding-right: 20%;
+}
+
+#linkEmbed a{
+	font-size: 40px;
+	color: rgba(255, 43, 6, 0.81) !important; 
 }
