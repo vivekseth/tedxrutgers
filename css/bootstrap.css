@@ -6134,3 +6134,15 @@ a.badge:focus {
 .affix {
   position: fixed;
 }
+
+
+
+
+/*======================*/
+/* User defined CSS
+/*======================*/
+
+#team_center_row{
+  margin-left: 110px;
+  margin-right: 110px;
+}
